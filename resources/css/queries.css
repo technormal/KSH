@@ -1,0 +1,196 @@
+/*BIG tablets to screens 1024 to 1200 px */
+
+@media only screen and (max-width:1200px) {
+    .study-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/*small tablets to big tablets 768 to 1023 px */
+
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box {
+        margin-top: 10px;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+
+    .stimg {
+        width: 90%;
+    }
+
+    .section-coord p {
+        font-size: 90%;
+    }
+
+    .section-coord h3 {
+        font-size: 98%;
+    }
+
+    .don-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .don-price {
+        font-size: 200%;
+    }
+
+    .don-ben {
+        font-size: 95%;
+    }
+
+    .don-box ul {
+        font-size: 95%;
+    }
+
+    .don-box a {
+        font-size: 95%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .main-nav {
+        float: left;
+        margin-left: 30%;
+        display: none;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        padding: 8px 0px;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding-bottom: 10px;
+        border-bottom: 5px solid transparent;
+    }
+
+
+
+
+}
+
+
+/*SMALL PHONES to small tablets 481 to 767 px */
+
+@media only screen and (max-width:767px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .row,
+    study-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .works-step {
+        margin-bottom: 20px;
+    }
+
+    .works-step div {
+        font-size: 130%;
+        height: 45px;
+        width: 45px;
+        margin-right: 25px;
+    }
+
+    .stimg {
+        width: 70%;
+    }
+
+    .steps-box {
+        margin-top: 0px;
+    }
+
+    .box img {
+        width: 50%;
+    }
+
+    .box p {
+        font-size: 17px;
+    }
+
+
+}
+
+
+/*SMALL PHONES 0 to 480 px */
+
+@media only screen and (max-width:480px) {
+
+    section {
+        padding: 25px 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
